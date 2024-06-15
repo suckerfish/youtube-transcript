@@ -45,7 +45,7 @@ curated_transcript = ' '.join(i["text"] for i in filtered)
 
 ai = Perplex()
 
-ai.ask(f"Please give a systematic, structured summary of the following movie review: {curated_transcript}")
+ai.ask(f"Please give a systematic, structured summary of the following movie/tv/music review: {curated_transcript}")
 
 
 
